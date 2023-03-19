@@ -1,10 +1,10 @@
-#Required libs: requests and shodan.
+
 import requests
 import shodan
-#'''"Server: App-webs/" "Content-Length: 1862"'''
+# ..
 import os
 
-# Configuration
+# here you have to uploade your Shodan API like this: API_KEY = "API of your shodan"
 API_KEY = "YOUR API KEY FROM SHODAN.IO"
 
 dorks=['''3.1.3.150324''','''Server: App-webs/''','''Content-Length: 1862''']
